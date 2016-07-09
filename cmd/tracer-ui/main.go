@@ -20,7 +20,7 @@ var (
 func init() {
 	flag.StringVar(&fListen, "l", "localhost:9997", "The `address` to listen on")
 	flag.StringVar(&fTemplate, "t", "", "The `directory` containing the UI code")
-	flag.StringVar(&fAPI, "a", "http://localhost:9998", "The `address` of the Tracer query API")
+	flag.StringVar(&fAPI, "a", "http://localhost:9411", "The `address` of the Tracer query API")
 }
 
 func main() {
